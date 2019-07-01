@@ -1,2 +1,2 @@
 # bclip.
-Repositório para criação do aplicativo BClip.
+ Repositório para criação do aplicativo BClip.
