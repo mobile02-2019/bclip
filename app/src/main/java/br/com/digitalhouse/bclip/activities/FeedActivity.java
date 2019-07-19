@@ -42,10 +42,10 @@ public class FeedActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setAdapter(  feedAdapter  );
 
-        retrofit = new Retrofit.Builder()
-                .baseUrl("https://newsapi.org/v2/everything?domains=wsj.com&apiKey=ac329ede06bc4196bb9e52a18fd939c5")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
+      //  retrofit = new Retrofit.Builder()
+              //  .baseUrl("https://newsapi.org/v2/everything?q=bitcoin&from=2019-06-18&sortBy=publishedAt&apiKey=ac329ede06bc4196bb9e52a18fd939c5")
+               // .addConverterFactory(Gso)
+
 
 
     }
